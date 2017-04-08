@@ -4,7 +4,7 @@
 // @version      0.1
 // @description  Change default Mastodon Theme
 // @author       Arthur Lacoste
-// @match        https://mastodon.social/web/*
+// @match        https://*/web/*
 // @grant        GM_addStyle
 // ==/UserScript==
 
