@@ -8,4 +8,5 @@ This is a simple Greasmonkey script allow you to change the default theme "tweet
 On chrome, install the Tampermonkey extension here :
 https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=fr
 
-And copy paste the userscript in the interface.
+After that, go to this link and click "install" :
+https://github.com/arthurlacoste/MastodonCloudTheme/raw/master/MastodonCloudTheme.user.js
