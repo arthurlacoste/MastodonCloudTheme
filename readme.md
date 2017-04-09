@@ -3,7 +3,15 @@
 
 Mastodon Cloud Theme is a library of hacks for Mastodon desktop interface.
 
-You can change the fit of the colomns, or resize the pics thumbnails.
+You can change the fit of the columns, or resize the pics thumbnails.
+
+[Know more about Mastodon.](https://github.com/tootsuite/mastodon)
+
+# Demo of Flex Columns
+
+Flex Columns fit the columns to the screen.
+
+[![banner](img/demoFlexColumns.png)](#)
 
 # Demo of Clear Theme
 
