@@ -1,9 +1,13 @@
 
 # Mastodon Cloud Theme
 
-This is a simple Greasmonkey script allow you to change the default theme "tweetdeck-like" into another clear and beautiful theme.
+Mastodon Cloud Theme is a library of hacks for Mastodon desktop interface.
 
-# Demo
+You can change the fit of the colomns, or resize the pics thumbnails.
+
+# Demo of Clear Theme
+
+This is a simple Greasmonkey script allow you to change the default theme "tweetdeck-like" into another clear and beautiful theme.
 
 [![banner](img/demo.png)](#)
 
@@ -12,5 +16,4 @@ This is a simple Greasmonkey script allow you to change the default theme "tweet
 On chrome, install the Tampermonkey extension here :
 https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=fr
 
-After that, go to this link and click "install" :
-https://github.com/arthurlacoste/MastodonCloudTheme/raw/master/MastodonCloudTheme.user.js
+After that, go to a script file, click on the "raw" button and click "install".
