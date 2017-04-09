@@ -22,10 +22,9 @@ GM_addStyle ( `
   }
 
   .status__content + div:not(:last-child) video {
-    transform: translateY(0%) !important;
     object-fit: scale-down !important;
   }
 `);
-                                 
+	
 })();
 
