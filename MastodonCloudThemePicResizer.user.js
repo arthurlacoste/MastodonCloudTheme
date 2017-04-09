@@ -14,7 +14,7 @@
     
 GM_addStyle ( `	
    .status__content + div:not(:last-child) {
-    height: 300px !important;
+    height: 250px !important;
   }
   
   .status__content + div:not(:last-child) a {
