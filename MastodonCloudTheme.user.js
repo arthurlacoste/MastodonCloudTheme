@@ -20,7 +20,7 @@ GM_addStyle ( ".drawer__inner { background: #c9cfe4 !important; }");
 GM_addStyle ( ".status {    border-bottom: 1px solid #c9cfe4; } ");
 
 // olones
-GM_addStyle ( ".column, .detailed-status, .detailed-status__action-bar{background: #c9cfe4;}"); 
+GM_addStyle ( ".column>.scrollable, .column, .detailed-status, .detailed-status__action-bar{background: #c9cfe4;}"); 
 
 // couleur du texte du statut
 GM_addStyle ( ".status__content {color: #393f4f  !important;}"); 
