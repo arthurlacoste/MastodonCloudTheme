@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Mastodon Cloud Theme Cute♥Witches
-// @namespace    http://arthurlacoste.com
+// @namespace    http://amburuhime.free.fr 
 // @version      0.1
 // @description  Change default Mastodon Theme to a Cute Witches pink theme
 // @author       @Amburu@witches.town
