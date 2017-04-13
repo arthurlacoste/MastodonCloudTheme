@@ -13,11 +13,11 @@ This is a simple Greasmonkey script allow you to change the default theme "tweet
 
 [![banner](img/demo.png)](#)
 
-# Demo of Cute Withesv
+# Demo of Cute Witches
 
 This is a pink girly theme from @amburu-hime, alias [@amburu](https://witches.town/@Amburu) on Mastodon.
 
-[![banner](img/demoCuteWithes.png)](#)
+[![banner](img/demoCuteWitches.png)](#)
 
 # Demo of Flex Columns
 
