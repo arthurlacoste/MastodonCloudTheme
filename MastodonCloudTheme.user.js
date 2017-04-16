@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Mastodon cloud theme
 // @namespace    http://arthurlacoste.com
-// @version      0.1
+// @version      0.2
 // @description  Change default Mastodon Theme
 // @author       Arthur Lacoste
 // @match        *://*/web/*
@@ -14,40 +14,75 @@
     
     
 // espace de commentaire
-GM_addStyle ( ".drawer__inner { background: #c9cfe4 !important; }");
+GM_addStyle ( `
 
-// bord bas des toots
-GM_addStyle ( ".status {    border-bottom: 1px solid #c9cfe4; } ");
+/* comments */
+.drawer__inner { 
+	background: #c9cfe4 !important; 
+}
 
-// olones
-GM_addStyle ( ".column>.scrollable, .column, .detailed-status, .detailed-status__action-bar{background: #c9cfe4;}"); 
+/* bottom of toots */
+.status {   
+	border-bottom: 1px solid #c9cfe4; 
+} 
 
-// couleur du texte du statut
-GM_addStyle ( ".status__content {color: #393f4f  !important;}"); 
+/* columns */
+.column>.scrollable, .column, .detailed-status, .detailed-status__action-bar{
+	background: #c9cfe4;
+}
+
+/* couleur du texte du statut */
+.status__content {
+	color: #393f4f  !important;
+}
     
-// La scrollbar
-GM_addStyle ( "::-webkit-scrollbar-thumb { background: #8088a6;}");   
+/* La scrollbar */
+::-webkit-scrollbar-thumb { 
+	background: #8088a6;
+}   
     
-// Couleur de fond
-GM_addStyle ( "body.app-body, body, .ui { background: #e1e4ec !important;}");
+/* Couleur de fond */
+body.app-body, body, .ui { 
+	background: #e1e4ec !important;
+}
         
-// Recherche
-GM_addStyle ( ".search__input { background: #c9cfe4; color: #9baec8; } ");
+/* Recherche */
+.search__input { 
+	background: #c9cfe4; color: #9baec8; 
+}
 
-// username tooter
-GM_addStyle ( ".status__display-name strong, .account__display-name strong { color: #393f4f; }");
+/* username tooter */
+.status__display-name strong, .account__display-name strong { 
+	color: #393f4f; 
+}
     
-// liens   
-GM_addStyle ( ".status__content a, .reply-indicator__content a {   color: #8190a6; }");
+/* liens */
+.status__content a, .reply-indicator__content a {   
+	color: #8190a6; 
+}
     
-// retirer les barres dans le statuts détaillés
-GM_addStyle ( ".detailed-status__action-bar, .account { border-top:0px;border-bottom: 0px;}");
+/* retirer les barres dans le statuts détaillés */
+.detailed-status__action-bar, .account { 
+	border-top:0px;
+	border-bottom: 0px;
+}
    
-// fond profil
-GM_addStyle ( ".account__header>div {background: rgba(201, 207, 228,0.7);}");
+/* fond profil */
+.account__header>div {
+	background: rgba(201, 207, 228,0.7);
+}
     
-// profil, décompte followers
-GM_addStyle ( ".account__action-bar__tab strong { color: #606984;}");
+/* profil, décompte followers */
+.account__action-bar__tab strong { 
+	color: #606984;
+}
+
+/* description profil */
+.account__header .account__header__content {
+    color: #1f232b;
+}
+
+`);
                                  
 })();
 
